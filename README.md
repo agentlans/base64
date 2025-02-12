@@ -24,7 +24,7 @@ int base64_encode(char* output, const char* input, size_t input_length, bool url
 int base64_decode(char* output, const char* input, size_t input_length, bool url_safe);
 ```
 
-For detailed function descriptions, please refer to the `base64.h` header file.
+For detailed function descriptions, please refer to the [`base64.h`](base64.h) header file.
 
 ## Usage
 
@@ -77,7 +77,7 @@ To use this library in your project, include the `base64.h` header file and comp
 
 ## Testing
 
-To compile the tests, run `cc -DDEBUG -o test base64_test.c base64.c; ./test`
+To compile and run the tests, run `cc -DDEBUG -o test base64_test.c base64.c; ./test` in the terminal.
 
 ## Author, Licence
 
